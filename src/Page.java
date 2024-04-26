@@ -17,8 +17,8 @@ public class Page extends JFrame {
         panel.setSize(WIDTH,HEIGHT);
         this.add(panel);
 
-        //graphics = new Renderer(this,panel);
-        graphics = new Recorder(this,panel,"F:\\storge\\test\\3djavaRecord2");
+        graphics = new Renderer(this,panel);
+        //graphics = new Recorder(this,panel,"F:\\storge\\test\\3djavaRecord2");
         setVisible(true);
         try
         {
